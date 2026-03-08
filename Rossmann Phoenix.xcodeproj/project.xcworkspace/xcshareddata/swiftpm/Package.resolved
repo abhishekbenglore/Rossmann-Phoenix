@@ -1,5 +1,5 @@
 {
-  "originHash" : "b023dcacbb1c6bc279b05d248b6c77547f4849f3a3cb36625273171fdc89dbae",
+  "originHash" : "9ff00907bac1727b708f30417c0bde5f9c26e490f2b69fab69de282d6e2635db",
   "pins" : [
     {
       "identity" : "coupondetail",
@@ -35,6 +35,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "aeb32b039d8ecf4d8b8e5b351a175b989b22029b"
+      }
+    },
+    {
+      "identity" : "settings",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/Settings.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1612eff00398cd2e7bfb67ce5142ab6dd1dddb9d"
       }
     }
   ],

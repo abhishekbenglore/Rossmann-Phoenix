@@ -11,6 +11,7 @@
 		4619E6D82F5C848900B3D6E0 /* Onboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6D72F5C848900B3D6E0 /* Onboarding */; };
 		4619E6DB2F5D2B6300B3D6E0 /* Coupons in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6DA2F5D2B6300B3D6E0 /* Coupons */; };
 		4619E6DE2F5D2F2D00B3D6E0 /* CouponDetail in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6DD2F5D2F2D00B3D6E0 /* CouponDetail */; };
+		4619E6E12F5D30C800B3D6E0 /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6E02F5D30C800B3D6E0 /* Settings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4619E6DB2F5D2B6300B3D6E0 /* Coupons in Frameworks */,
+				4619E6E12F5D30C800B3D6E0 /* Settings in Frameworks */,
 				4619E6D52F5C80D300B3D6E0 /* LanguageSelection in Frameworks */,
 				4619E6D82F5C848900B3D6E0 /* Onboarding in Frameworks */,
 				4619E6DE2F5D2F2D00B3D6E0 /* CouponDetail in Frameworks */,
@@ -127,6 +129,7 @@
 				4619E6D72F5C848900B3D6E0 /* Onboarding */,
 				4619E6DA2F5D2B6300B3D6E0 /* Coupons */,
 				4619E6DD2F5D2F2D00B3D6E0 /* CouponDetail */,
+				4619E6E02F5D30C800B3D6E0 /* Settings */,
 			);
 			productName = "Rossmann Phoenix";
 			productReference = 4619E65E2F5C666D00B3D6E0 /* Rossmann Phoenix.app */;
@@ -215,6 +218,7 @@
 				4619E6D62F5C848900B3D6E0 /* XCRemoteSwiftPackageReference "Onboarding" */,
 				4619E6D92F5D2B6300B3D6E0 /* XCRemoteSwiftPackageReference "Coupons" */,
 				4619E6DC2F5D2F2D00B3D6E0 /* XCRemoteSwiftPackageReference "CouponDetail" */,
+				4619E6DF2F5D30C800B3D6E0 /* XCRemoteSwiftPackageReference "Settings" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4619E65F2F5C666D00B3D6E0 /* Products */;
@@ -633,6 +637,14 @@
 				kind = branch;
 			};
 		};
+		4619E6DF2F5D30C800B3D6E0 /* XCRemoteSwiftPackageReference "Settings" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abhishekbenglore/Settings.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -655,6 +667,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4619E6DC2F5D2F2D00B3D6E0 /* XCRemoteSwiftPackageReference "CouponDetail" */;
 			productName = CouponDetail;
+		};
+		4619E6E02F5D30C800B3D6E0 /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4619E6DF2F5D30C800B3D6E0 /* XCRemoteSwiftPackageReference "Settings" */;
+			productName = Settings;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
