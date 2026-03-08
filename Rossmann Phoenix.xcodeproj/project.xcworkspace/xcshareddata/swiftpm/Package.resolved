@@ -1,6 +1,15 @@
 {
-  "originHash" : "7f088a02e5069b95a2769f2805232db2722c237a86e16dd7dc6b82e5501d9b9b",
+  "originHash" : "b023dcacbb1c6bc279b05d248b6c77547f4849f3a3cb36625273171fdc89dbae",
   "pins" : [
+    {
+      "identity" : "coupondetail",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/CouponDetail.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "abaee0e8ec800f10ba05d0ff56b25a99f66d5dbe"
+      }
+    },
     {
       "identity" : "coupons",
       "kind" : "remoteSourceControl",
