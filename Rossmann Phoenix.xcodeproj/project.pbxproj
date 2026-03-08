@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4619E6D52F5C80D300B3D6E0 /* LanguageSelection in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6D42F5C80D300B3D6E0 /* LanguageSelection */; };
+		4619E6D82F5C848900B3D6E0 /* Onboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6D72F5C848900B3D6E0 /* Onboarding */; };
+		4619E6DB2F5D2B6300B3D6E0 /* Coupons in Frameworks */ = {isa = PBXBuildFile; productRef = 4619E6DA2F5D2B6300B3D6E0 /* Coupons */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4619E6712F5C667000B3D6E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4619E6DB2F5D2B6300B3D6E0 /* Coupons in Frameworks */,
+				4619E6D52F5C80D300B3D6E0 /* LanguageSelection in Frameworks */,
+				4619E6D82F5C848900B3D6E0 /* Onboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +121,9 @@
 			);
 			name = "Rossmann Phoenix";
 			packageProductDependencies = (
+				4619E6D42F5C80D300B3D6E0 /* LanguageSelection */,
+				4619E6D72F5C848900B3D6E0 /* Onboarding */,
+				4619E6DA2F5D2B6300B3D6E0 /* Coupons */,
 			);
 			productName = "Rossmann Phoenix";
 			productReference = 4619E65E2F5C666D00B3D6E0 /* Rossmann Phoenix.app */;
@@ -195,6 +207,11 @@
 			);
 			mainGroup = 4619E6552F5C666D00B3D6E0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4619E6D32F5C80D300B3D6E0 /* XCRemoteSwiftPackageReference "LanguageSelection" */,
+				4619E6D62F5C848900B3D6E0 /* XCRemoteSwiftPackageReference "Onboarding" */,
+				4619E6D92F5D2B6300B3D6E0 /* XCRemoteSwiftPackageReference "Coupons" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4619E65F2F5C666D00B3D6E0 /* Products */;
 			projectDirPath = "";
@@ -578,6 +595,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4619E6D32F5C80D300B3D6E0 /* XCRemoteSwiftPackageReference "LanguageSelection" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abhishekbenglore/LanguageSelection.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4619E6D62F5C848900B3D6E0 /* XCRemoteSwiftPackageReference "Onboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abhishekbenglore/Onboarding.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4619E6D92F5D2B6300B3D6E0 /* XCRemoteSwiftPackageReference "Coupons" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abhishekbenglore/Coupons.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4619E6D42F5C80D300B3D6E0 /* LanguageSelection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4619E6D32F5C80D300B3D6E0 /* XCRemoteSwiftPackageReference "LanguageSelection" */;
+			productName = LanguageSelection;
+		};
+		4619E6D72F5C848900B3D6E0 /* Onboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4619E6D62F5C848900B3D6E0 /* XCRemoteSwiftPackageReference "Onboarding" */;
+			productName = Onboarding;
+		};
+		4619E6DA2F5D2B6300B3D6E0 /* Coupons */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4619E6D92F5D2B6300B3D6E0 /* XCRemoteSwiftPackageReference "Coupons" */;
+			productName = Coupons;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4619E6562F5C666D00B3D6E0 /* Project object */;
 }

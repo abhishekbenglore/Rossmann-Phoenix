@@ -1,0 +1,33 @@
+{
+  "originHash" : "7f088a02e5069b95a2769f2805232db2722c237a86e16dd7dc6b82e5501d9b9b",
+  "pins" : [
+    {
+      "identity" : "coupons",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/Coupons.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "74929e27ce6dd633cf2c71823a54174a20c6e242"
+      }
+    },
+    {
+      "identity" : "languageselection",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/LanguageSelection.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "23c22a5dee6c73ebe244b36c7985600c9e72855d"
+      }
+    },
+    {
+      "identity" : "onboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/Onboarding.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "aeb32b039d8ecf4d8b8e5b351a175b989b22029b"
+      }
+    }
+  ],
+  "version" : 3
+}
