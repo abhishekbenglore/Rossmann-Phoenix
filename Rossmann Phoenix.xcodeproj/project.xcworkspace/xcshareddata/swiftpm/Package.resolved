@@ -1,5 +1,5 @@
 {
-  "originHash" : "9ff00907bac1727b708f30417c0bde5f9c26e490f2b69fab69de282d6e2635db",
+  "originHash" : "409f5d4f28bbde12b2392ddbc73409095b0f004c7f5e4d43c0094eb547805a7d",
   "pins" : [
     {
       "identity" : "coupondetail",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/abhishekbenglore/CouponDetail.git",
       "state" : {
         "branch" : "main",
-        "revision" : "abaee0e8ec800f10ba05d0ff56b25a99f66d5dbe"
+        "revision" : "5941aa2459cce076a2b4389af5cace6b74aa227b"
       }
     },
     {
@@ -16,7 +16,7 @@
       "location" : "https://github.com/abhishekbenglore/Coupons.git",
       "state" : {
         "branch" : "main",
-        "revision" : "74929e27ce6dd633cf2c71823a54174a20c6e242"
+        "revision" : "44d1affa32571e4b3a1196d7ee45870753a6a036"
       }
     },
     {
@@ -26,6 +26,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "23c22a5dee6c73ebe244b36c7985600c9e72855d"
+      }
+    },
+    {
+      "identity" : "localisation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/Localisation.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b2dbd7b5d5cc0a483926f06145b9b9d202b843a7"
       }
     },
     {
@@ -43,7 +52,16 @@
       "location" : "https://github.com/abhishekbenglore/Settings.git",
       "state" : {
         "branch" : "main",
-        "revision" : "1612eff00398cd2e7bfb67ce5142ab6dd1dddb9d"
+        "revision" : "643cd358b3c8341597af7c70a8647c0f353be2c0"
+      }
+    },
+    {
+      "identity" : "utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abhishekbenglore/Utilities.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0191990ea02c349897abde85bce6cd157cb0425b"
       }
     }
   ],
